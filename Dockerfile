@@ -4,4 +4,5 @@ RUN ls -al
 RUN tar cvf test.tar dir
 RUN rm -rf dir
 RUN ls -al
-RUN tar -xvf test.tar
+RUN tar -v -xvf test.tar
+RUN ls -al
