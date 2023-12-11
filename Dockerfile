@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:39
+FROM registry.fedoraproject.org/fedora:rawhide
 RUN mkdir dir
 RUN ls -al
 RUN tar cvf test.tar dir
